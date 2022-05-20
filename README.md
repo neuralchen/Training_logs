@@ -1,14 +1,14 @@
 # Training_logs
  
-##Mobilenet V2
+## Mobilenet V2
 
-#Setting:
+# Setting:
 
 - batch size: 4 * 64
-- epoch: 150
-- LR decay strategy cosine 5 epoch warmup, initial learning rate 0.05
+- epochs: 150
+- LR decay strategy cosine, 5 epochs warm up, initial learning rate 0.05
 - weight decay 0.00004
-- 0.1 lable smoothing
+- 0.1 label smoothing
 
 ### MobileNetV2 with a spectrum of width multipliers
 | Architecture      | # Parameters | MFLOPs | Top-1 / Top-5 Accuracy (%) |
