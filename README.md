@@ -2,7 +2,7 @@
  
 ## Mobilenet V2
 
-# Setting:
+# Mobilenet V2 Setting:
 
 - batch size: 4 * 64
 - epochs: 150
@@ -23,3 +23,20 @@
 | MobileNetV2 0.35 Depth Embedding | 1.677M |     59.29 | 62.470 / 83.828  |
 | MobileNetV2 0.25 | 1.519M |     37.21 | 52.352 / 75.932  |
 | MobileNetV2 0.1 | 1.356M | 12.92 | 34.896 / 56.564 |
+
+# ResNet Setting:
+
+- batch size: 4 * 64
+- epochs: 100
+- LR decay strategy cosine, 5 epochs warm up, initial learning rate 0.1
+- weight decay 1e-4
+- 0.1 label smoothing
+
+
+### ResNet
+| Architecture      | # Parameters | GFLOPs | Top-1 / Top-5 Accuracy (%) |
+| ----------------- | ------------ | ------ | -------------------------- |
+| Resnet50 | 25.56 M | 4.12 G | 75.20 / 92.52 |
+| Resnet50 Depth Embedding | 25.56 M | 4.12 G | - / - |
+| Resnet34 | 21.80 M | 3.68 G | 73.31 / 91.40 |
+| Resnet34 Depth Embedding | 21.80 M | 3.68 G | 74.620 / 92.122 |
