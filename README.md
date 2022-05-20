@@ -1,14 +1,15 @@
 # Training_logs
  
-## Mobilenet V2
+# Mobilenet V2
 
-# Mobilenet V2 Setting:
+### Mobilenet V2 Setting:
 
 - batch size: 4 * 64
 - epochs: 150
 - LR decay strategy cosine, 5 epochs warm up, initial learning rate 0.05
 - weight decay 0.00004
 - 0.1 label smoothing
+- ImageNet
 
 ### MobileNetV2 with a spectrum of width multipliers
 | Architecture      | # Parameters | MFLOPs | Top-1 / Top-5 Accuracy (%) |
@@ -24,13 +25,16 @@
 | MobileNetV2 0.25 | 1.519M |     37.21 | 52.352 / 75.932  |
 | MobileNetV2 0.1 | 1.356M | 12.92 | 34.896 / 56.564 |
 
-# ResNet Setting:
+# ResNet
+
+### ResNet Setting:
 
 - batch size: 4 * 64
 - epochs: 100
 - LR decay strategy cosine, 5 epochs warm up, initial learning rate 0.1
 - weight decay 1e-4
 - 0.1 label smoothing
+- ImageNet
 
 
 ### ResNet
