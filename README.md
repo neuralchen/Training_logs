@@ -6,7 +6,7 @@
 
 - batch size: 4 * 64
 - epoch: 150
-- LR decay strategy cosine 5 epoch warmup
+- LR decay strategy cosine 5 epoch warmup, initial learning rate 0.05
 - weight decay 0.00004
 - 0.1 lable smoothing
 
