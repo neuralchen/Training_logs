@@ -18,6 +18,7 @@
 | MobileNetV2 1.0 (retrain) | 3.504M | 300.79 | 72.252 / 90.622 |
 | MobileNetV2 1.0 Depth Embedding | 3.504M | 300.79 | 72.652 / 90.578 |
 | MobileNetV2 0.75 | 2.636M | 209.08 | 69.952 / 88.986 |
+| MobileNetV2 0.75 Depth Embedding | 2.636M | 209.08 | 70.164 / 89.054 |
 | MobileNetV2 0.5 | 1.968M | 97.14 | 64.592 / 85.392 |
 | MobileNetV2 0.5 Depth Embedding | 1.968M | 97.14 | 65.74 / 86.004 |
 | MobileNetV2 0.35 | 1.677M |     59.29 | 60.092 / 82.172  |
