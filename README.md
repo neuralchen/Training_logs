@@ -24,7 +24,7 @@
 | MobileNetV2 0.35 Depth Embedding | 1.677M |     59.29 | 62.470 / 83.828  |
 | MobileNetV2 0.25 | 1.519M |     37.21 | 52.352 / 75.932  |
 | MobileNetV2 0.1 | 1.356M | 12.92 | 34.896 / 56.564 |
-
+| MobileNetV2 0.1 Depth Embedding | 1.356M | 12.92 | 43.772 / 67.946 |
 # ResNet
 
 ### ResNet Setting:
