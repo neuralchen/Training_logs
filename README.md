@@ -26,6 +26,7 @@
 | MobileNetV2 0.25 | 1.519M |     37.21 | 52.352 / 75.932  |
 | MobileNetV2 0.1 | 1.356M | 12.92 | 34.896 / 56.564 |
 | MobileNetV2 0.1 Depth Embedding | 1.356M | 12.92 | 43.772 / 67.946 |
+| MobileNetV2 0.1 Depth Embedding (第一层加入宽度乘子) | 1.356M | 12.92 | 42.396 / 66.592 |
 # ResNet
 
 ### ResNet Setting:
